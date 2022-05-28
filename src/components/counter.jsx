@@ -22,7 +22,7 @@ const Counter =() => {
 
     return(
         <div>
-            <h1 className={count%2===0 ? styles.color2:styles.color1}>Counter App:{count}</h1>
+            <h1 className={count%2==0 ? "style1":"style2"}>Counter App:{count}</h1>
             <button onClick={incrementCount}>Increment</button>
             <button onClick={decrementCount}>Decrement</button>
             <button onClick={doubleCount}>Double</button>
